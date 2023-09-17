@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 0.5px solid red; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   box-sizing: border-box;
+}
+header{
+    background-image: url("./assets/top-birra-in-botte.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100vw;
+    height: 38vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+   font-size: 5vw;
+   
+}
+main{
+  
+    background-color: rgb(134, 168, 154);
+}
+h1{
+    color: rgb(239, 240, 247);
+   
+}
+
+.img-header{
+    width: 350px;
+
+}
+
+#card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    padding: 25px 0px;
+  
+}
+.card{
+    display: flex;
+    min-width: 500px;
+    height: 250px;
+    width: 45%;
+    box-shadow: 4px 6px 13px 9px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+.map{
+    width: 250px;
+    height: 250px;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    font-size:large;
+    gap: 2px;
+    margin-left: 5px;
+}
+.button{
+    display: flex;
+   justify-content: center;
+}
+footer{
+    text-align: center;
+    background-color: rgb(67, 28, 7);
+}
